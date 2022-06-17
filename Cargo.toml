@@ -1,0 +1,10 @@
+[package]
+name = "datap"
+version = "0.0.1"
+edition = "2021"
+description = "Build extremely fast and flexible data loading pipelines"
+license = "MIT"
+
+[dependencies]
+arrow2 = { version = "0.12.0", features = ["csv"] }
+clap = { version = "3.2.5", features = ["derive"] }
